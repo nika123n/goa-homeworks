@@ -1,0 +1,86 @@
+body{
+    background-color: white;
+}
+.charcho{
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    border: nine;
+    border-radius: 10px;
+    margin-top: -370px;
+    margin-left: 550px;
+    box-shadow: 5px 3px 20px 1px black;
+}
+.number{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: 880px;
+    position: relative;
+}
+.password{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 880px;
+}
+.shesvla{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 880px;
+}
+.shesvla:hover{
+    background-color: rgb(28, 28, 249);
+}
+.button{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(6, 239, 6);
+    color: white;
+    font-size: 15px;
+    margin-left: 920px;
+}
+.button:hover{
+    background-color: rgb(4, 250, 4);
+}
+.class{
+    position: relative;
+    left: 940px;
+    bottom: 120px;
+}
+.facebook{
+    font-size: 45px;
+    color: blue;
+    position: relative;
+    bottom: 510px;
+    left: 270px;
+}
+h1{
+    font-size: 60;
+    position: relative;
+    bottom: 530px;
+    left: 270px;
+}
+#text{
+    position: relative;
+    bottom: 530px;
+    left: 270px;
+}
+img{
+    position: relative;
+    left: 270px;
+    bottom: 500px;
+}
+.nika{
+    font-size: 30px;
+    position: relative;
+    left: 330px;
+    bottom: 520px;
+    color: blue;
+}
