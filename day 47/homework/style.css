@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    display: flex;
+    background-color: white;
+    width: 800px;
+}
+img, section {
+    width: 50%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+h2{
+    font-size: 50px;
+}
+    #description{
+    font-size: 22px;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+}
+div{
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    height: 60px;
+    border-radius: 10px;
+}
