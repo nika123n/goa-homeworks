@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+                                /*******************Main*********************/
+
+main{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    width: 900px;
+    height: 400px;
+}
+img, section{
+    width: 50%;
+}
+section{
+    color: white;
+}
+.img{
+    filter: contrast(purple);
+}
+.div-block3{
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.div-block2{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.div-block1{
+    padding-left: 70px;
+    padding-top: 100px;
+}
