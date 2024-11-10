@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ამჟამინდელი დრო</title>
+</head>
+<body>
+    <h1>ამჟამინდელი დრო:</h1>
+    <div id="time"></div>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const currentTime = `${hours}:${minutes}:${seconds}`;
+            
+            document.getElementById("time").textContent = currentTime;
+        }
+
+        // დროის განახლება ყოველ წამს
+        setInterval(updateTime, 1000);
+        updateTime(); // პირველადი გაწვდილი
+    </script>
+</body>
+</html>
