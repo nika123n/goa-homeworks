@@ -1,0 +1,54 @@
+                               /**********************Delete Margin and Pading***************************/
+                               *{
+                                padding: 0;
+                                margin: 0;
+                                
+                            }
+                                                           /**********************Body style****************************/
+                            body{
+                                display: flex;
+                                justify-content: center;
+                                text-align: center;
+                                min-height: 100vh;
+                                background-color: hsl(47, 88%, 63%);
+                            }
+                                                          /*********************Main style************************/
+                            .main{
+                                width: 400px;
+                                height: 500px;
+                                background-color: hsl(0, 0%, 100%);
+                            }
+                            .container-div2{
+                                padding-top: 20px;
+                            }
+                            .button{
+                                margin-right: 260px;
+                                background-color: hsl(47, 88%, 63%);
+                                width: 75px;
+                                height: 29px;
+                                border: none;
+                                border-radius: 5px;
+                            }
+                            .paragraf1{
+                                padding-right: 180px;
+                            }
+                            .paragraf2{
+                                padding-right: 115px;
+                                font-size: 20px;
+                                color: hsl(47, 88%, 63%);
+                            }
+                            .paragraf3{
+                                padding-right: 56px;
+                                color: hsl(0, 0%, 42%);
+                            }
+                            .paragraf4{
+                                padding-right: 70px;
+                                color: hsl(0, 0%, 42%);
+                            }
+                            .paragraf5{
+                                padding-right: 245px;
+                                color: hsl(0, 0%, 42%);
+                            }
+                            .paragraf6{
+                                padding-top: -100;
+                            }
