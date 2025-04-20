@@ -1,0 +1,65 @@
+                    /*****************Delete margin/padding **********/
+*{
+    margin: 0;
+    padding: 0;
+}
+                    /****************Body****************************/
+
+body{
+    height: 100vh;
+}
+
+                    /**********************Main****************/
+.container-div-parent2{
+    padding-left: 850px;
+    margin-top: -400px;
+
+    border-radius: 10px;
+}
+img{
+    height: 400px;
+}
+.container-div-parent{
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(229, 233, 233);
+
+    margin-left: 340px;
+    margin-top: 50px;
+}
+.container-div-child4{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+input{
+    width: 350px;
+    height: 40px;
+
+    border-radius: 20px;
+    border: none;
+}
+button{
+    width: 90px;
+    height: 40px;
+
+    border-radius: 20px;
+    border: none;
+
+    background-color: black;
+    color: white;
+
+    
+}
+.container-div-child3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.container-div-child2{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.container-div-child{
+    padding-top: 30px;
+    padding-left: 30px;
+}

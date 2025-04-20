@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-div{
+    flex-direction: column;
+}
+.h1{
+    font-size: 60px;
+    margin: 0;
+}
+.h3{
+    font-size: 30px;
+    color: rgb(147, 148, 148);
+}
+.btn{
+    width: 170;
+}
+.container-div2{
+    padding-left: 100px;
+}
+.btn, .btn2{
+    background-color: black;
+    color: white;
+
+    height: 40px;
+}

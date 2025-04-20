@@ -2,12 +2,13 @@
 
 // ხოლო იმ შემთხვევისთვის, თუ ჩვენ სიტყვას "გააარტყა", ლუპის გარეთ გააკეთეთ alert('success')
 
-let word = "jumberi"
-let user = prompt('sheecade gamoicno sityva: ')
+let secretWord = jemali
+let guess =  prompt("guess the word: ")
 
-while(user != word){
-    let user = prompt('sheecade gamoicno sityva: ')
+while(guess !== secretWord){
+    guess = prompt("it's incorect, try again: ")
 }
-if (user == word){
-    console.log('gilocav, shen gamoicani sityva')
+
+if (guess == secretWord){
+    alert("success")
 }
